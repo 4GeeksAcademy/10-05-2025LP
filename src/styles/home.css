@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: auto; /* Define the number and size of columns */
+    grid-template-rows: auto; /* Define the number and size of rows */
+    gap: 10px; /* Define the gap between grid items */
+  }
+.btn.frame {
+    all: unset;
+    background: linear-gradient(
+        90deg,
+        rgb(148.2, 179.82, 248.04) 2%,
+        rgb(144.46, 154.12, 241.08) 14.5%,
+        rgb(143.53, 131.56, 217.07) 30.5%,
+        rgb(64.64, 0, 248.63) 87%
+    );
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Make it a block element */
+    /* padding: 12px 28px; */
+    text-decoration: none;
+    align-items: center;
+}
