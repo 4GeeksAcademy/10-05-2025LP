@@ -16,13 +16,15 @@ export const Box = () => {
           <p className="text-wrapper">Edditing, transcribinng, and formating texts and photos were never that easy!</p>
         
           <div className="btn">
-            <button className="frame">Sign in Now</button>
+            <button className="frame" id="prostyling">Sign in Now</button>
           </div>
           <div className="ellipse-2" />
         </div>
         <div className="ellipse-3" />
         <div className="ellipse-4" />
       </div>
+      
     </div>
+    
   );
 };

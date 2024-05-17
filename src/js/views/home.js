@@ -1,19 +1,124 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 import { Box } from "../component/herosection";
+import "../../styles/aifeatures.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import { Container, Row, Col } from "react-bootstrap";
+import PartApiCont from "../component/partapi";
+import ContactUs from "../component/contactus";
 
-export const Home = () => (
-  <div className="text-center mt-5">
-
-           <Box /> 
-          <a href="#" className="btn frame">
-            If you see this green button, bootstrap is working
-          </a>
-        
-  </div>
-);
+export const Home = () => {
+  return (
+    <div className="text-center mt-5">
+      <Box />
+      <div className="container">
+        <Row className="m-auto align-self-center">
+          <Col className="a">
+            <Card
+              style={{ width: "22.5rem", background: "rgba(24, 24, 28, 0.85)" }}
+            >
+              {" "}
+              {/* Added opacity to the background */}
+              <Card.Img variant="top" src="#" />
+              <Card.Body>
+                <Card.Title style={{ color: "white" }}>Card Title 1</Card.Title>
+                <Card.Text style={{ color: "white" }}>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button className="frame" variant="primary">
+                  Test Feature
+                </Button>{" "}
+                {/* Added className "frame" */}
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="a">
+            <Card
+              style={{ width: "22.5rem", background: "rgba(24, 24, 28, 0.85)" }}
+            >
+              {" "}
+              <Card.Img variant="top" src="#" />
+              <Card.Body>
+                <Card.Title style={{ color: "white" }}>Card Title 2</Card.Title>
+                <Card.Text style={{ color: "white" }}>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button className="frame" variant="primary">
+                  Test Feature
+                </Button>{" "}
+                {/* Added className "frame" */}
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <div style={{ height: "55px" }}></div>
+        {/* Spacing between the card groups */}
+        <Row className="m-auto align-self-center">
+          <Col className="a">
+            <Card
+              style={{ width: "22.5rem", background: "rgba(24, 24, 28, 0.85)" }}
+            >
+              {" "}
+              {/* Added opacity to the background */}
+              <Card.Img variant="top" src="#" />
+              <Card.Body>
+                <Card.Title style={{ color: "white" }}>Card Title 3</Card.Title>
+                <Card.Text style={{ color: "white" }}>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button className="frame" variant="primary">
+                  Test Feature
+                </Button>{" "}
+                {/* Added className "frame" */}
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className="a">
+            <Card
+              style={{ width: "22.5rem", background: "rgba(24, 24, 28, 0.85)" }}
+            >
+              {" "}
+              {/* Added opacity to the background */}
+              <Card.Img variant="top" src="#" />
+              <Card.Body>
+                <Card.Title style={{ color: "white" }}>Card Title 4</Card.Title>
+                <Card.Text style={{ color: "white" }}>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button className="frame" variant="primary">
+                  Test Feature
+                </Button>{" "}
+                {/* Added className "frame" */}
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+      <div className="container">
+        <PartApiCont />
+      
+        {/* <div
+        style={{
+          marginTop: "170px",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <img
+          src="/workspaces/10-05-2025LP/src/img/CTA.pngsrc/img/CTA.png"
+          alt="Image"
+          style={{ width: "100px", marginRight: "20px" }}
+        /> */}
+        <ContactUs />
+        {/* </div> */}
+      </div>
+    </div>
+  );
+};
 
 export default Home;

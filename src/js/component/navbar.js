@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/navbar.css";
 
 export const Navbar = () => {
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 0;
+            setScrolled(isScrolled);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <nav className="navbar">
+        <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
             <Link to="/" className="navbar-brand">
                 MAFL
             </Link>
@@ -13,26 +28,8 @@ export const Navbar = () => {
                     Home
                 </Link>
                 <Link to="/demo" className="btn Signin">Signin</Link>
-                <Link to="/login" className="btn Login">Login</Link>
+                <Link to="/dashboard" className="btn Login">Login</Link>
             </div>
         </nav>
     );
 };
-
-
-
-
-// export const Navbar = () => {
-// 	return (
-// 	  <div className="navbar">
-// 		<div className="frame">
-// 		  <Button>Sign-up</Button>
-// 		</div>
-// 		<div className="div-wrapper">
-// 		  <div className="div">Log-in</div>
-// 		</div>
-// 		<div className="text-wrapper-2">Home</div>
-// 		<div className="text-wrapper-3">MAFL</div>
-// 	  </div>
-// 	);
-//   };

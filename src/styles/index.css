@@ -1,15 +1,22 @@
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 
 
+
+/* body{
+     background-color: #000000; }
 .navbar {
     border: 1px solid;
     border-color: #000000;
     width: 100%;
     height: 82px;
     display: flex;
-    justify-content: space-between; /* Align items to the left and right */
-    align-items: center; /* Align items vertically */
+    justify-content: space-between; 
+    align-items: center; 
     padding:20px;
+    position: fixed;
 }
 
 .navbar .navbar-brand {
@@ -23,8 +30,8 @@
 .navbar .contbut {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Move the buttons to the right */
-    margin-right: 20px; /* Add space to the right side */
+    margin-left: auto; 
+    margin-right: 20px; 
 }
 
 .navbar .btn {
@@ -39,7 +46,7 @@
     border-radius: 5px;
     color: #ffffff;
     cursor: pointer;
-    margin-left: 10px; /* Add margin between buttons */
+    margin-left: 10px; 
     padding: 12px 28px;
     text-decoration: none;
-}
+} */

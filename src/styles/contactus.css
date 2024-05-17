@@ -1,0 +1,166 @@
+.box2 {
+    min-height: 516px; /* Set a minimum height */
+    position: relative;
+    width: 503px;
+    background-color: rgba(24, 24, 28, 0.85); /* Updated background color with opacity */
+  }
+  .box2 .get-in-touch {
+    height: 516px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 507px;
+  }
+  
+  .box2 .frame {
+    align-items: flex-start;
+    background-color: #18181c;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    padding: 12px 28px;
+    position: absolute;
+    top: 174px;
+    width: 408px;
+  }
+  
+  .box2 .text-wrapper {
+    color: #9e9e9e;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .box2 .div-wrapper {
+    align-items: flex-start;
+    background-color: #18181c;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    left: 0;
+    padding: 12px 28px;
+    position: absolute;
+    top: 236px;
+    width: 408px;
+  }
+  
+  .box2 .div {
+    align-items: flex-start;
+    background-color: #18181c;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 156px;
+    left: 0;
+    padding: 12px 28px;
+    position: absolute;
+    top: 298px;
+    width: 408px;
+  }
+  
+  .box2 .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 80px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .box2 .p {
+    color: #9e9e9e;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 80px;
+    width: 503px;
+  }
+  
+  .box2 .submit-btn {
+    align-items: flex-start;
+    background: linear-gradient(
+      180deg,
+      rgb(148.2, 179.82, 248.04) 2%,
+      rgb(144.46, 154.12, 241.08) 14.5%,
+      rgb(143.53, 131.56, 217.07) 30.5%,
+      rgb(64.64, 0, 248.63) 87%
+    );
+    border-radius: 5px;
+    display: inline-flex;
+    gap: 10px;
+    left: 7px; /* Adjust left margin */
+    bottom: 9px; /* Adjust bottom margin */
+    padding: 12px 28px;
+    position: absolute;
+    border: none; /* Remove border */
+  }
+  
+  .box2 .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  .contact-container {
+    margin-top: 100px;
+    position: relative;
+    top: 50%; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    transform: translateY(-50%);
+  }
+  .input-field {
+    background-color: transparent; /* Make the input field transparent */
+    border: none; /* Remove the border */
+    color: white; /* Set text color to white */
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 10px; /* Adjust padding as needed */
+    width: 100%; /* Make the input field width 100% */
+    outline: none; /* Remove outline on focus */
+  }
+  
+  .submit-btn {
+    background-color: transparent; /* Make the button transparent */
+    border: 2px solid #ffffff; /* Add border to the button */
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .submit-btn:hover {
+    background-color: #ffffff; /* Change background color on hover */
+    color: #18181c; /* Change text color on hover */
+  }
+  

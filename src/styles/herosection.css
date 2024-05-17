@@ -1,4 +1,4 @@
-
+/* Herosection.css */
 .box {
   height: 559px;
   position: relative;
@@ -10,7 +10,7 @@
 .HERO-SECTION {
     display: flex;
     justify-content: center;
-    height: 60vh;
+    height: 100%;
     align-items: center;
     width: 100%;
   }
@@ -18,20 +18,42 @@
 .box .HERO-SECTION {
   height: 559px;
   left: 0;
-  position: fixed;
   top: 0;
   width: 100%;
 }
+#prostyling {
+  all: unset;
+  background: linear-gradient(
+      90deg,
+      rgb(148.2, 179.82, 248.04) 2%,
+      rgb(144.46, 154.12, 241.08) 14.5%,
+      rgb(143.53, 131.56, 217.07) 30.5%,
+      rgb(64.64, 0, 248.63) 87%
+  );
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 0px;
+  padding: 12px 16px;
+
+  text-decoration: none;
+}
+.box .btn {
+  position: absolute;
+  bottom: 55px; 
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 .box .overlap-group {
-    height: 538px;
-    width: 753px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center; /* Center-align the text */
-  }
+  height: 638px;
+  width: 753px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
 
 
 .box .ellipse {
@@ -73,24 +95,7 @@
   margin-top: 50px;
 }
 
-/* .box .frame {
-  align-items: flex-start;
-  background: linear-gradient(
-    180deg,
-    rgb(148.2, 179.82, 248.04) 2%,
-    rgb(144.46, 154.12, 241.08) 14.5%,
-    rgb(143.53, 131.56, 217.07) 30.5%,
-    rgb(64.64, 0, 248.63) 87%
-  );
-  border-radius: 5px;
-  display: inline-flex;
-  gap: 10px;
-  left: 302px;
-  padding: 12px 28px;
-  position: absolute;
-  top: 473px;
-  margin-top: 50px;
-} */
+
 
 button .frame{
  
@@ -140,7 +145,7 @@ button .frame{
   border-radius: 48px;
   filter: blur(20px);
   height: 96px;
-  left: 1096px;
+  left: 76%;
   position: absolute;
   top: 333px;
   width: 96px;
