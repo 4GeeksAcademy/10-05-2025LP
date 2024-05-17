@@ -5,10 +5,8 @@
     display: grid;
     grid-template-columns: auto; /* Define the number and size of columns */
     grid-template-rows: auto; /* Define the number and size of rows */
-    
       
   }
-
   
   .btn.frame {
     all: unset;

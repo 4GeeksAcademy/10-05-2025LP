@@ -31,7 +31,7 @@ const ContactUsContainer = () => {
           </div>
           <div className="text-wrapper-2">Get In Touch</div>
           <p className="p">
-            MAFL would love to hear your opinion and know how we can improve
+            MAFL would love to hear your opinion<br /> and know how we can improve
             our services.
           </p>
   <button type="submit" className="submit-btn">Get in Touch</button>

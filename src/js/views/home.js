@@ -99,21 +99,10 @@ export const Home = () => {
           </Col>
         </Row>
       </div>
-      <div className="container">
+      <div className="container-fluid contact-us">
         <PartApiCont />
-      
-        {/* <div
-        style={{
-          marginTop: "170px",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <img
-          src="/workspaces/10-05-2025LP/src/img/CTA.pngsrc/img/CTA.png"
-          alt="Image"
-          style={{ width: "100px", marginRight: "20px" }}
-        /> */}
+      </div>
+      <div>
         <ContactUs />
         {/* </div> */}
       </div>
