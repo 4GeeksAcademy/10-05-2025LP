@@ -25,7 +25,7 @@ export const AiFeatures = () => {
               <div className="div-2" />
             </div>
           </div>
-          <img className="img" alt="Group" src="group-129.png" />
+          <video className="img" alt="Group" src="#" />
         </div>
         <div className="overlap-2">
           <p className="p">

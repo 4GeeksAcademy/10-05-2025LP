@@ -1,6 +1,6 @@
 
 /* Button.css */
-.Button {
+/* .Button {
   align-items: flex-start;
   background: linear-gradient(
         90deg,
@@ -28,4 +28,4 @@
   position: relative;
   white-space: nowrap;
   width: fit-content;
-}
+} */

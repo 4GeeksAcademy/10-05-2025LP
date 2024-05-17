@@ -7,6 +7,7 @@ import Card from "react-bootstrap/Card";
 import { Container, Row, Col } from "react-bootstrap";
 import PartApiCont from "../component/partapi";
 import ContactUs from "../component/contactus";
+import VideoCard from "../component/video";
 
 export const Home = () => {
   return (
@@ -20,7 +21,7 @@ export const Home = () => {
             >
               {" "}
               {/* Added opacity to the background */}
-              <Card.Img variant="top" src="#" />
+              <VideoCard />
               <Card.Body>
                 <Card.Title style={{ color: "white" }}>Card Title 1</Card.Title>
                 <Card.Text style={{ color: "white" }}>
@@ -40,6 +41,7 @@ export const Home = () => {
             >
               {" "}
               <Card.Img variant="top" src="#" />
+              
               <Card.Body>
                 <Card.Title style={{ color: "white" }}>Card Title 2</Card.Title>
                 <Card.Text style={{ color: "white" }}>
@@ -110,4 +112,4 @@ export const Home = () => {
   );
 };
 
-export default Home;
+
