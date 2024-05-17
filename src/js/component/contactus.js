@@ -1,5 +1,3 @@
-// ContactUsContainer.js
-
 import React from "react";
 import "../../styles/contactus.css";
 
@@ -7,6 +5,12 @@ const ContactUsContainer = () => {
   return (
     <div className="contact-container">
       <div className="box2">
+        <div className="text-wrapper-2">Get In Touch</div>
+        <p className="p">
+          MAFL would love to hear your opinion
+          <br />
+          and know how we can improve our services.
+        </p>
         <div className="get-in-touch">
           <div className="frame">
             <input
@@ -23,21 +27,18 @@ const ContactUsContainer = () => {
             />
           </div>
           <div className="div">
-            <input
-              type="text"
-              className="input-field"
-              placeholder="Name"
+            <textarea
+              className="input-field" // Change class to match styling
+              placeholder="Message"
+              rows="4" // Set the number of rows for multiline input
             />
           </div>
-          <div className="text-wrapper-2">Get In Touch</div>
-          <p className="p">
-            MAFL would love to hear your opinion<br /> and know how we can improve
-            our services.
-          </p>
-  <button type="submit" className="submit-btn">Get in Touch</button>
-</div>
-          </div>
+          <button type="submit" className="submit-btn">
+            Get in Touch
+          </button>
         </div>
+      </div>
+    </div>
   );
 };
 
